@@ -10,3 +10,6 @@ O Hiring Coders é um programa de capacitação gratuito e sem pré-requisitos, 
 
 - [ ] Treinamento 3 - ecommerce (6ª à 9ª semana)
 > Além de formar profissionais com grandes habilidades full-stacks, iremos especializá-los na plataforma mais desejada do mercado de ecommerce VTEX com os conteúdos de: Devops + AWS, VTEX IO, Desenvolvendo com VTEX IO, Projetos de ecommerce.
+
+
+Acesse: https://www.hiringcoders.com.br/
