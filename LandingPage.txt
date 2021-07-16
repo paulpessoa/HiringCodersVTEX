@@ -1,0 +1,1 @@
+Só landing page mesmo , cadastra o e-mail, ela armazena no localstorage, uma página simples, preenche dados e fim, bem simples mesmo.

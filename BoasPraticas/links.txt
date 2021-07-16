@@ -1,0 +1,8 @@
+BEM CSS
+http://getbem.com/
+
+Atomic Designer
+https://atomicdesign.bradfrost.com/
+
+Template para Aula
+https://github.com/mrdouglasmorais/template-node-fulljs
