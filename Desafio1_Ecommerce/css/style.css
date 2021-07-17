@@ -1,160 +1,201 @@
 /* css reset */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/*header*/
+/* ---------------------- cabeçalho ---------------------- */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1240px;
-    width: 100%;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .header a img {
-    max-width: 200px;
-    margin: 20px;
+  max-width: 200px;
+  margin: 20px;
 }
 .social-icons {
-    display: flex;
+  display: flex;
 }
 .social-icons i.fa {
-     color: #F8B505;
-     margin: 10px;
-     font-size: 20px;
-     transition: 0.3s ease;
+  color: #f8b505;
+  margin: 10px;
+  font-size: 20px;
+  transition: 0.3s ease;
 }
 .social-icons i.fa:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-/*main*/
+/* ---------------------- banner separador ---------------------- */
 .banner-separador {
-    background-image: url("/img/rapadura-engenho.jpg");
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    background-repeat: no-repeat;
+  background-image: url("/img/rapadura-engenho.jpg");
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
 }
 
-/* conteúdo principal */
+/* ---------------------- conteúdo da página principal ---------------------- */
 .main-content {
-    display: flex;
-    flex-wrap: wrap;
-    margin:0 auto;
-    max-width: 1240px;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1240px;
+  width: 100%;
+  align-items: center;
 }
+/* ---------------------- títulos e textos CTA ---------------------- */
 .cta-text {
-    max-width: 620px;
-    width: 100%;
-    padding: 30px;
-    margin: 0 auto;
+  max-width: 620px;
+  width: 100%;
+  padding: 30px;
+  margin: 0 auto;
 }
 .cta-text h1 {
-    font-size: 36px;
-    text-align: center;
+  font-size: 36px;
+  text-align: center;
 }
-.cta-text h1 span{
-    color: #F8B505;
-    text-shadow: 1px 1px 2px black;
+.cta-text h1 span {
+  color: #f8b505;
+  text-shadow: 1px 1px 2px black;
 }
-.cta-text h2{
-    text-align: center;
-    padding: 20px 10px;
-    font-size: 20px;
+.cta-text h2 {
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 20px;
 }
+/* ---------------------- formulário CTA ---------------------- */
 aside {
-    margin: 40px auto;
-    max-width: 620px;
-    width: 100%;
+  margin: 40px auto;
+  max-width: 620px;
+  width: 100%;
 }
 .cta-form {
-    background-color: #F8B505;
-    max-width: 350px;
-    width: 100%;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: #f8b505;
+  max-width: 350px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .cta-form h3 {
-    text-align: center;
-    margin: 20px auto;
+  text-align: center;
+  margin: 20px auto;
 }
 
 .cta-form form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .cta-form form input {
-    margin: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
 }
 .cta-form form label {
-    font-size: 12px;
+  font-size: 12px;
 }
-.cta-form form label a{
-    color: #0f0f0f;
-    font-weight: bold;
+.cta-form form label a {
+  color: #0f0f0f;
+  font-weight: bold;
 }
 .cta-form form label a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.cta-form form input[type=submit] {
-     background-color:#000000;
-     color: #fff;
-     transition: 0.3s ease;
-     text-transform: uppercase;
+.cta-form form input[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  transition: 0.3s ease;
+  text-transform: uppercase;
 }
-.cta-form form input[type=submit]:hover {
-    transform: scale(0.98);
-    cursor: pointer;
-    color: #F8B505;
+.cta-form form input[type="submit"]:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  color: #f8b505;
 }
+
+/* ---------------------- produtos em destaque ---------------------- */
 .produtos-section {
-    background-color:#F8B505;
-    padding: 50px;
+  background-color: #f8b505;
+  padding: 50px;
 }
 .produtos-section h2 {
-    font-size: 28px;
-    text-align: center;
-    padding: 10px;
+  font-size: 28px;
+  text-align: center;
+  padding: 10px;
 }
-
-.carousel-produtos{
-    margin: 20px auto;
-    max-width: 1240px;
-    width: 100%;
+/* ---------------------- personalização carrousel slick ---------------------- */
+.carousel-produtos {
+  margin: 20px auto;
+  max-width: 1240px;
+  width: 100%;
 }
-
 .slick-initialized .slick-slide {
-    display: flex !important;
-    justify-content: center;
+  display: flex !important;
+  justify-content: center;
 }
 .info-produto img {
-    max-width: 200px;
-    width: 100%;
-    cursor: pointer;
-    border-radius: 8px;
+  max-width: 200px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
 }
-/*footer*/
+/* ---------------------- rodapé ---------------------- */
 .footer-section {
-    background-color: #F8B505;
-    text-align: center;
-    padding: 20px;
+  background-color: #f8b505;
+  text-align: center;
+  padding: 20px;
 }
 .footer-section a {
-    color: #000000;
+  color: #000000;
 }
-
+/* ---------------------- popup confirmação ---------------------- */
+.BlockUIConfirm {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 50;
+}
+.popup {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  opacity: 0.4;
+}
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px;
+  opacity: 1;
+  background-color: white;
+  border-top: 5px solid #f8b505;
+  padding: 40px;
+}
+.caption i {
+  float: right;
+  cursor: pointer;
+}
+.caption p {
+  line-height: 40px;
+  font-size: 20px;
+}
