@@ -10,5 +10,5 @@ Criação de um sistema e-commerce para inventário de produtos e dados de clien
 <a href="https://gestaocadastro.vercel.app/" target="_blank">gestaocadastro.vercel.app</a>
 
 
-## LandingPage Preview (click on the image)
-<a href="https://gestaocadastro.vercel.app/" target="_blank"><img src="./img/gestaocadastro-landingpage.png" alt="Visite RapaFriday"/></a>
+## WebPage Preview (click on the image)
+<a href="https://gestaocadastro.vercel.app/" target="_blank"><img src="./img/gestaocadastro-landingpage.png" alt="Gestão de Cadastros"/></a>
