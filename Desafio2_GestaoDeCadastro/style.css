@@ -1,5 +1,37 @@
+/* css reset */
 * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    ;
+  }
 
+/* ---------------------- cabeçalho ---------------------- */
+.body {
+    background-color:azure;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid rgb(116, 116, 116);
+}
+
+nav {
+    display: flex;
+
+}
+
+nav a {
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 
@@ -8,3 +40,107 @@
     background-image: url(./img/сhevrolet.png);
     width: 100px;
 }
+
+
+
+
+.product-section {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.product-section .card {
+    margin: 10px;
+    width: 250px;
+    transition: 0.2s ease-out;
+}
+
+.product-section .card:hover {
+    box-shadow: 1px 1px 4px rgb(172, 172, 172);
+}
+
+.product-section .card img {
+    padding: 20px;
+    margin: 0 auto;
+    background-size: contain;
+}
+
+
+
+.card-body {
+    text-align: center;
+}
+
+.card-body h5 {
+    font-weight: bold;
+}
+
+.card-body p{
+    text-align: justify;
+}
+
+.card-body a {
+    background-color: rgb(29, 0, 46);
+}
+.card-body a:hover {
+    background-color: rgb(29, 0, 46);
+    box-shadow: 1px 1px 10px rgb(235, 172, 0);
+    color: rgb(238, 195, 77);
+}
+
+
+
+
+
+
+
+.cadastro-cliente {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.img-cliente {
+    background-image: url(./img/unnamed.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.form-cliente {
+    text-align: center;
+    padding-top: 20px;
+    background-color: white;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
+
+
+.form-cliente form  {
+    padding: 20px;
+}
+.form-cliente form input {
+    margin: 12px auto;
+    width: 90%;
+    padding: 8px;
+    border: none;
+    display: block;    
+    background-color: rgb(221, 221, 221);
+}
+
+.form-cliente form input[type=submit]{
+    background-color: rgb(29, 0, 46); 
+    color: #fff;   
+}
+
+
+.form-cliente form input[type=submit]:hover {
+    background-color: rgb(29, 0, 46);
+    box-shadow: 1px 1px 10px rgb(235, 172, 0);
+    color: rgb(238, 195, 77);
+}
+
